@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.steamdeckinput",                              
+  "displayName": "Input Steam Deck 2 uNode",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Tools to allows the use of all the buttons of the team deck to remote control games using uNode and UnityEvent",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2025_03_08_InputSteamDeck2uNode.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

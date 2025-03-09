@@ -303,7 +303,7 @@ MonoBehaviour:
         startSerializedType:
           rid: 914615757113131256
         targetSerializedType:
-          rid: 914615757113131266
+          rid: 4275978935288725751
         _items:
         - name: Debug
           reference:
@@ -390,7 +390,7 @@ MonoBehaviour:
           serializedString: System.String
           serializedBytes: 
           references: []
-    - rid: 914615757113131266
+    - rid: 4275978935288725751
       type: {class: SerializedType, ns: MaxyGames.UNode, asm: uNode3.Core}
       data:
         kind: 1

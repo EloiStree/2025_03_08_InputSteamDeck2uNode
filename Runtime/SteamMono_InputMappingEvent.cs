@@ -1,16 +1,18 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class SteamMono_InputMappingEvent : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public SteamDeckButtonsInput m_input;
+
+    public void OnEnable()
     {
-        
+        m_input.OnEnable();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDisable()
     {
-        
+        m_input.OnDisable();
     }
 }

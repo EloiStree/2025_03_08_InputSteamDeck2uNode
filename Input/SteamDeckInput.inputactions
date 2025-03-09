@@ -437,6 +437,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
+                    "action": "LeftSideButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02bac6c6-924d-49d7-9d86-924975729427",
+                    "path": "<Keyboard>/pageDown",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "LeftTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -448,18 +459,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RightTrigger",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "02bac6c6-924d-49d7-9d86-924975729427",
-                    "path": "<Keyboard>/pageDown",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "LeftSideButton",
+                    "action": "RightSideButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -470,7 +470,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "RightSideButton",
+                    "action": "RightTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -510,7 +510,7 @@
                 {
                     "name": "",
                     "id": "f65e930b-92ed-4b0c-ac10-c57c063d6c67",
-                    "path": "<Keyboard>/numpad9",
+                    "path": "<Keyboard>/numpad1",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -521,7 +521,7 @@
                 {
                     "name": "",
                     "id": "b1a8cfbd-0054-43c4-b70b-ff1133b81f4f",
-                    "path": "<Keyboard>/numpad1",
+                    "path": "<Keyboard>/numpad9",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

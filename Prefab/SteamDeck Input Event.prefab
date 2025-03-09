@@ -1,0 +1,604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8150002176670310477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9006428045261810447}
+  - component: {fileID: 7580448376701544065}
+  m_Layer: 0
+  m_Name: SteamDeck Input Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9006428045261810447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8150002176670310477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7580448376701544065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8150002176670310477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca17ab506624ba928b623dc48f1b0be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_input:
+    m_sideButtonLeft:
+      m_input: {fileID: -8499488815459875127, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_sideButtonRight:
+      m_input: {fileID: 4740929973111706353, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_triggerButtonLeft:
+      m_input: {fileID: -7646932724385530508, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_triggerButtonRight:
+      m_input: {fileID: -2900302429225478791, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_yUpButton:
+      m_input: {fileID: -8788041165296643317, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_bRightButton:
+      m_input: {fileID: 9014783582687425571, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_aDownButton:
+      m_input: {fileID: -5827564821772589920, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_xLeftButton:
+      m_input: {fileID: -6669749762257318692, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_menuLeftButton:
+      m_input: {fileID: 1356835575838837256, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_menuRightButton:
+      m_input: {fileID: -855941292354010929, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_backLeftTopButton:
+      m_input: {fileID: -104739167939729340, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_backLeftDownButton:
+      m_input: {fileID: -7479483379838026881, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_backRightTopButton:
+      m_input: {fileID: 7117912663659195369, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_backRightDownButton:
+      m_input: {fileID: -6322141106725830736, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+      m_onChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onTrueChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_onFalseChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      m_value: 0
+    m_arrows:
+      m_upButton:
+        m_input: {fileID: -5523931059243611781, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_rightButton:
+        m_input: {fileID: -4019608475963318338, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_downButton:
+        m_input: {fileID: -2479342411569163161, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_leftButton:
+        m_input: {fileID: 1974426551408155411, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+    m_dpadLeft:
+      m_upButton:
+        m_input: {fileID: -9194620296317009636, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_rightButton:
+        m_input: {fileID: -205214903891647942, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_downButton:
+        m_input: {fileID: 182221358515994125, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_leftButton:
+        m_input: {fileID: -1727463403635897795, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_pressButton:
+        m_input: {fileID: -5444295919705028141, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_outer:
+        m_input: {fileID: 2190875626610043116, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_touchButton:
+        m_input: {fileID: 5720703034309310817, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+    m_dpadRight:
+      m_upButton:
+        m_input: {fileID: 803019872162324025, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_rightButton:
+        m_input: {fileID: -3402501111714395444, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_downButton:
+        m_input: {fileID: 3097079411413476075, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_leftButton:
+        m_input: {fileID: -7620634627472711970, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_pressButton:
+        m_input: {fileID: 4661561114155077836, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_outer:
+        m_input: {fileID: 598416416297949920, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_touchButton:
+        m_input: {fileID: -2482950831294782537, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+    m_joystickLeft:
+      m_upButton:
+        m_input: {fileID: -420663486201818270, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_rightButton:
+        m_input: {fileID: 9125213062001656440, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_downButton:
+        m_input: {fileID: -7835136583788169127, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_leftButton:
+        m_input: {fileID: -5870417846173405598, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_pressButton:
+        m_input: {fileID: 3836053648489315579, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_outer:
+        m_input: {fileID: 8380583275774297557, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_touchButton:
+        m_input: {fileID: 1409314735741847457, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+    m_joystickRight:
+      m_upButton:
+        m_input: {fileID: 4262906309415756994, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_rightButton:
+        m_input: {fileID: -5927617229151809000, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_downButton:
+        m_input: {fileID: -3194426754495490720, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_leftButton:
+        m_input: {fileID: 8672347792984572865, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_pressButton:
+        m_input: {fileID: 7188239170117319415, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_outer:
+        m_input: {fileID: 2511877392272062968, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
+      m_touchButton:
+        m_input: {fileID: 8918667531308207570, guid: acc2191e1f83a209db0954aad31a671b, type: 3}
+        m_onChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onTrueChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_onFalseChanged:
+          m_PersistentCalls:
+            m_Calls: []
+        m_value: 0
