@@ -432,19 +432,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "d3afc137-9caa-487c-9d6c-2ee4d13d4a5f",
-                    "path": "<Keyboard>/home",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "LeftSideButton",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "02bac6c6-924d-49d7-9d86-924975729427",
-                    "path": "<Keyboard>/pageDown",
+                    "path": "<Keyboard>/numpadDivide",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -454,8 +443,8 @@
                 },
                 {
                     "name": "",
-                    "id": "66b5f3fe-bc95-4ad9-bdbb-37a47488a4c9",
-                    "path": "<Keyboard>/end",
+                    "id": "d3afc137-9caa-487c-9d6c-2ee4d13d4a5f",
+                    "path": "<Keyboard>/numpadPlus",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -465,8 +454,19 @@
                 },
                 {
                     "name": "",
+                    "id": "66b5f3fe-bc95-4ad9-bdbb-37a47488a4c9",
+                    "path": "<Keyboard>/numpadMinus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftSideButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ea2b033c-7685-4b45-9a0a-503c1bac4bbf",
-                    "path": "<Keyboard>/pageUp",
+                    "path": "<Keyboard>/numpadMultiply",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -554,7 +554,7 @@
                 {
                     "name": "",
                     "id": "984e0b61-41d3-4e60-8a15-9ad4c926aba6",
-                    "path": "<Keyboard>/numpadPeriod",
+                    "path": "<Keyboard>/numpad5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
